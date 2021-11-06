@@ -7,3 +7,20 @@
 //   })
 // })
 
+// $(()=>{
+//   $('.box1').mouseover(()=>{
+//     $('.box1').addClass('box1-ext')
+//   })
+//   $('.box1').mouseout(()=>{
+//     $('.box1').removeClass('box1-ext')
+//   })
+// })
+
+$(()=>{
+  $('.box1').on('click', ()=>{
+    $('.box1').addClass('box1-ext')
+  })
+$('.box1').mouseout(()=>{
+  $('.box1').removeClass('box1-ext')
+})
+})
